@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display:flex;
+    background-color:#ffffff;
+    height:80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #827070;
+}
+
+.myntra_home{
+    height:45px;
+    
+}
+.logo_container{
+    margin-left:4%;
+}
+.action_bar{
+    margin-right:4% ;
+}
+
+.nav_bar{
+    display:flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+.nav_bar a{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color:rgb(20, 19, 19);
+    font-weight:700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 28px 0;
+    border-bottom: 5px solid white;
+    
+
+}
+.nav_bar a:hover{
+    border-bottom: 4px solid red;
+}
+
+.nav_bar a sup{
+    color:red;
+    font-size: 10px;
+}
+.search_bar{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.search_icon{
+    box-sizing: content-box;
+   height:20px;
+   padding: 10px;
+  
+
+   font-weight: 300;
+   border-radius: 4px 0  0 4px;
+
+}
+
+.search_input{
+    height: 40px;
+    color:grey;
+  background-color: white;
+  flex-grow:1;
+  
+  
+}
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+
+.action_container{
+    
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/*Main section - banner part*/
+
+.banner_image{
+    width:100%;
+
+}
+.banner_container{
+    margin: 40px 0;
+}
+
+.category_heading{
+    text-transform: uppercase;
+    color:#827070;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.category_items , .items-container{
+    width: 80%;
+    margin: 50px 10%; 
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.sale_item{
+   width:250px;
+
+}
+
+/*footer part*/
+
+.footer_container{
+    padding: 30px 0px 40px 0px;
+    background:#fafbfc;
+    display:flex;
+    justify-content: centerS;
+
+}
+
+.footer_column{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer_column h3{
+    color:#282c3f;
+    font-size:14px;
+    margin-bottom:25px;
+
+}
+
+.footer_column a{
+    color:#696b79;
+    
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom:5px;
+}
+
+.copyrights{
+  
+    padding:15px;
+    text-align: end;
+}
+
+.items-container{
+    width:80%;
+    margin: 40px 10%;
+}
+
+.item-container{
+   width:200px;
+   margin: 10px;
+}
+
+.item-iamge{
+  width:100%;
+}
+
+.rating{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.company-name{
+    margin-top:15px;
+  font-size:16px;
+  font-weight: 700;
+  line-height: 1;
+  color: #282c3f;
+  margin-bottom: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+
+}
+
+.item-name{
+    margin-top:15px;
+    font-size:13px;
+    font-weight: 400;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+.price{
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 15px;
+    color:#282c3f;
+    white-space: nowrap;
+    
+}
+
+.current-price{
+    font-size: 20px;
+    line-height: 15px;
+    color:#282c3f;
+}
+.original-price{
+    text-decoration: line-through;
+    color:#7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.discount{
+   color: rgb(176, 69, 69);
+   font-weight: 400;
+   font-size: 12px;
+   margin-left: 5px;
+}
+
+.btn-add-bag{
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 3px 0px;
+   background-color: red;
+   border: none;
+   padding: 5px 15px;
+   border-radius: 16px;
+}
+
+.bag-item-count
+{
+    cursor: pointer;
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -44px;
+    font-weight: 700;
+
+}
+
+.action_container{
+    text-decoration: none;
+}
+a.action_container:link{
+    color: black;
+}
